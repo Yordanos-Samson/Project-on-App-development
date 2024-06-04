@@ -101,3 +101,9 @@ class _MyHomePageState extends State<MyHomePage> {
 
   }
 }
+class Word{
+  String words_en;
+  String words_am;
+  bool fav;
+  Word(this.words_en,this.words_am,this.fav);
+}
